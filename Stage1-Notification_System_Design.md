@@ -1,0 +1,5 @@
+In this stage, I focused on organizing notifications based on their importance so that users can easily see the most relevant updates.
+Instead of displaying all notifications in random order, I implemented a priority-based system. I assigned priority levels to each type of notification:Placement notifications were given the highest priority, followed by Result notifications, and then Event notifications.
+After assigning priorities, I sorted the notifications in two steps. First, I sorted them based on priority in descending order. Then, for notifications with the same priority, I sorted them based on their timestamp so that the most recent notifications appear first.
+Finally, I selected the top 10 notifications from the sorted list. This ensures that users see the most important and recent notifications without being overwhelmed.
+For demonstration purposes, I used sample data since the API required authorization. However, the same logic can be applied directly when valid API access is available.
